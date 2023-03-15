@@ -1,0 +1,45 @@
+{
+    "menu": [
+        {
+            "url": "admin/dashboard",
+            "name": "Dashboard",
+            "icon": "home",
+            "slug": "admin-dashboard"
+        },
+        {
+            "navheader": "Apps Manager",
+            "slug": ""
+        },
+        {
+            "url": "admin/user",
+            "name": "User",
+            "icon": "user",
+            "slug": "admin-user-view"
+        },
+        {
+            "url": "admin/task",
+            "name": "Task",
+            "icon": "user",
+            "slug": "admin-task-view"
+        },
+        {
+            "name": "Settings",
+            "icon": "grid",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "admin/settings/third/party/provider",
+                    "name": "Third party provider",
+                    "icon": "circle",
+                    "slug": "third-party-provider-view"
+                },
+                {
+                    "url": "admin/settings",
+                    "name": "Default Limit",
+                    "icon": "settings",
+                    "slug": "admin-setting"
+                }
+            ]
+        }
+    ]
+}

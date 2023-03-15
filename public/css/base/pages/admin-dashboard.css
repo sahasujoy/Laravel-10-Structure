@@ -1,0 +1,65 @@
+.card-statistics .statistics-body {
+  padding: 2rem 2.4rem !important;
+}
+@media (max-width: 991.98px) {
+  .card-statistics .card-header,
+  .card-statistics .statistics-body {
+    padding: 1.5rem !important;
+  }
+}
+
+.ecommerce-header-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.ecommerce-header-items .result-toggler {
+  display: flex;
+  align-items: center;
+}
+.ecommerce-header-items .result-toggler .shop-sidebar-toggler {
+  padding-left: 0;
+}
+.ecommerce-header-items .result-toggler .shop-sidebar-toggler:active, .ecommerce-header-items .result-toggler .shop-sidebar-toggler:focus {
+  outline: 0;
+}
+.ecommerce-header-items .result-toggler .shop-sidebar-toggler .navbar-toggler-icon {
+  height: auto;
+}
+.ecommerce-header-items .result-toggler .shop-sidebar-toggler .navbar-toggler-icon i,
+.ecommerce-header-items .result-toggler .shop-sidebar-toggler .navbar-toggler-icon svg {
+  color: #6e6b7b;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 1.5rem;
+}
+.ecommerce-header-items .result-toggler .search-results {
+  font-weight: 500;
+  color: #5e5873;
+}
+
+.card-company-table thead th {
+  border: 0;
+}
+.card-company-table td {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.card-company-table td .avatar {
+  background-color: #f8f8f8;
+  margin-right: 2rem;
+}
+.card-company-table td .avatar img {
+  border-radius: 0;
+}
+
+.card-browser-states .browser-states:first-child {
+  margin-top: 0;
+}
+.card-browser-states .browser-states:not(:first-child) {
+  margin-top: 1.7rem;
+}
+
+.card-transaction .transaction-item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}

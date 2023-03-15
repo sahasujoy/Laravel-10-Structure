@@ -1,0 +1,20 @@
+{
+    "menu": [
+        {
+            "url": "admin/dashboard",
+            "name": "Dashboard",
+            "icon": "home",
+            "slug": "admin-dashboard"
+        },
+        {
+            "navheader": "Apps Manager",
+            "slug": ""
+        },
+        {
+            "url": "admin/user",
+            "name": "User",
+            "icon": "user",
+            "slug": "admin-user-view"
+        }
+    ]
+}
