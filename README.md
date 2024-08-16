@@ -3,7 +3,7 @@
 ### Step by step
 Clone this Repository
 ```sh
-git clone https://github.com/shiponorangetoolz/laravel_10_structure
+git clone https://github.com/sahasujoy/laravel-10-structure
 ```
 
 Create the .env file
